@@ -45,7 +45,7 @@ lab3-analysis &amp; specification
 *Statement:
 
 Type: Problem / observation
-- B
+-B
 
 Type: Stakeholder need / concern
 -C
@@ -162,9 +162,7 @@ HOW WILL WE KNOW?
 | ID | Requirement | Source | Verification |
 |---|---|---|---|
 | FR-01 | The system shall allow an authorised user to view equipment availability for a selected date. | Technician need (worked example); Student and Staff needs (Week 2). | Select a date with known bookings and check that the availability shown matches them. |
-
 | FR-02 | The system shall prevent a booking from being confirmed if the equipment is already booked for any part of the requested period. | Student and Staff concern about double-booking (Week 2). | Try to book an item for an overlapping period and confirm that the booking is rejected. |
-
 | FR-03 | The system shall record the expected return date and time for each booking. | Student need to see when equipment must be returned (Week 2). | Create a booking with a specified return date and time, then check that the system records and displays the correct details. |
 
 

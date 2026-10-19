@@ -1,7 +1,7 @@
 # lab3-analysis-specification
 lab3-analysis &amp; specification
 
-** Stefan Krstic — T00199336
+** Stefan Krstic — T00199336**
 **Date:** 19/10/26
 
 **Stakeholders
@@ -42,7 +42,7 @@ lab3-analysis &amp; specification
 -Candidate Requirements
 
 
-*Statement:
+*Statement:*
 
 Type: Problem / observation
 -B
@@ -70,16 +70,16 @@ Type: Assumption
 
 -"The system shall be user-friendly."
 
-8Problem:
+*Problem:*
 
 "User-friendly" is subjective and cannot be measured.
 It does not say who the users are or which tasks they need to do.
 
-*Clarification question:
+*Clarification question:*
 
 Which users and which tasks need to be easy, and what would "easy" look like to them?
 
-*Missing information:
+*Missing information:*
 
 Who the users are (students, staff, technicians).
 Which tasks must be easy.
@@ -89,17 +89,17 @@ Any accessibility needs.
 
 **Requirement 2**
 
--"The system shall notify users about bookings."
+-The system shall notify users about bookings.
 
-*Problem:
+*Problem:*
 
 It does not say who is notified, about which events, when, or how.
 
-*Clarification question:
+*Clarification question:*
 
 Which booking events (confirmation, reminder, overdue return, cancellation) need a notification, and who should receive each one?
 
-*Missing information:
+*Missing information:*
 
 Who the "users" are.
 Which events trigger a notification.
@@ -110,16 +110,16 @@ The method of notification.
 
 -The system shall allow staff to create, edit and delete bookings and send reminders.
 
-*Problem:
+*Problem:*
 
 It combines several requirements in one sentence, so it cannot be verified as a single item.
 "Staff" is unclear, and it does not say whether students can create bookings.
 
-*Clarification question:
+*Clarification question:*
 
 Which staff roles may create, edit or delete bookings, and should students be able to make their own bookings?
 
-*Missing information:
+*Missing information:*
 
 Which staff roles have which permissions.
 Whether deleted bookings should be kept as a record.
@@ -131,7 +131,7 @@ Improved Requirement
 
 -Repaired: The system shall notify the user who made a booking that it is overdue when the equipment has not been returned by the expected return date and time.
 
-*How could we verify it?
+*How could we verify it?*
 
 -Create a booking, pass the expected return time without returning the equipment, and confirm the booking user is notified.
 
@@ -143,7 +143,7 @@ Improved Requirement
 
 **Five Question**
 
-*WHO?
+WHO?
 Technician (equipment staff).
 -The technician needs to know whether equipment is available before confirming a booking.
 
